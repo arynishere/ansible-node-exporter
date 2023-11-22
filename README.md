@@ -5,3 +5,13 @@ To use this script, you need to install Ansible in advance. I have put a script 
 ```
 bash ansibleinstall.sh
 ```
+# set ansible hosts
+## Hosts
+To add hosts, proceed as follows:
+
+```
+[node-exporter]
+"domain or host IP" ansible_ssh_port="portnumber" ansible_ssh_user="username" ansible_ssh_pass="password"
+```
+you can add many ip or domain like this command and save name file "host"
+
