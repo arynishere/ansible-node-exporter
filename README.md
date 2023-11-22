@@ -5,4 +5,3 @@ To use this script, you need to install Ansible in advance. I have put a script 
 ```
 bash ansibleinstall.sh
 
-'''
