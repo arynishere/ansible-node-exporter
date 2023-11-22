@@ -13,5 +13,5 @@ To add hosts, proceed as follows:
 [node-exporter]
 "domain or host IP" ansible_ssh_port="portnumber" ansible_ssh_user="username" ansible_ssh_pass="password"
 ```
-you can add many ip or domain like this command and save name file "host"
+you can add many ip or domain like this command and save name file "hosts"
 
