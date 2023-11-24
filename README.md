@@ -22,5 +22,5 @@ you can add many ip or domain like this command and save name file "hosts"
 To install on all nodes, you need to enter the following command and be sure to note that in your yml file, in the host section, you must enter the name that you put in the hosts file.
 
 ```
-ansible-playbook -i hosts
+ansible-playbook -i hosts(hostfile name) node-install.yml
 ```
