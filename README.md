@@ -24,3 +24,5 @@ To install on all nodes, you need to enter the following command and be sure to 
 ```
 ansible-playbook -i hosts(hostfile name) node-install.yml
 ```
+Note that you can download the desired version of node exporter from the link below and change it in the script "node.sh"
+[node exporter version](https://github.com/prometheus/node_exporter/releases)
