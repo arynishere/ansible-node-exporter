@@ -1,0 +1,16 @@
+---
+- hosts: "name set in hosts file"
+  become: yes
+  tasks:
+    - name: Copy node.sh to remote host
+      copy:
+        src: /root/ansible-node-exporter/node.sh
+        dest: /tmp/node.sh
+        mode: 0755
+
+    - name: Run node.sh script on remote host
+      shell: /tmp/node.sh
+
+    - name: Restart node_exporter service
+      command: systemctl daemon-reload
+      command: systemctl restart node_exporter.service
