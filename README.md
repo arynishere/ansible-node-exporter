@@ -18,7 +18,7 @@ you can add many ip or domain like this command and save name file "hosts"
 
 # Install node on dest hosts
 ## command 
-To install on all nodes, you need to enter the following command and be sure to note that in your yml file, in the host section, you must enter the name that you put in the hosts file Be careful, inside the yml file in the section "- hosts: "name set in hosts file"
+To install on all nodes, you need to enter the following command and be sure to note that in your yml file, in the host section, you must enter the name that you put the hostsnames carefully, inside the yml file in the section "- hosts: "name set in hosts file"
 
 ```
 vim / nano node-install.yml
