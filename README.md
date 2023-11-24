@@ -4,7 +4,6 @@
 To use this script, you need to install Ansible in advance. I have put a script for you in this repo, which you can install using the following command:
 ```
 cd ansible-node-exporter
-
 bash ansibleinstall.sh
 ```
 # set ansible hosts
@@ -25,7 +24,6 @@ Be careful, inside the yml file in the section "- hosts: "name set in hosts file
 ```
 vim / nano node-install.yml
 change first line : - hosts: "name set in hosts file"
-
 ```
 ```
 ansible-playbook -i hosts(hostfile name) node-install.yml
