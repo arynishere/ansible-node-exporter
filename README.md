@@ -23,6 +23,8 @@ To install on all nodes, you need to enter the following command and be sure to 
 Be careful, inside the yml file in the section "- hosts: "name set in hosts file"
 "Be sure to enter the name of the host in the hosts file or any file you have entered to set your hosts in this line of the yaml file.
 ```
+vim / nano node
+change first line : - hosts: "name set in hosts file"
 
 ```
 ```
